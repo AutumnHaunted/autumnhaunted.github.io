@@ -38,6 +38,15 @@ h2
 	padding-top: 30px;
 }
 
+h3
+{
+	font-weight: 200;
+	font-size: 32px;
+	font-family: 'Exo', sans-serif;
+	margin: 0px;
+	padding-top: 10px;
+}
+
 a
 {
 	color: var(--autumn-white);
@@ -125,10 +134,50 @@ img
 .text
 {
 	font-size: 30px;
+}
+
+.headertext
+{
+	font-size: 30px;
 	padding-left: 30px;
 }
 
 .unselectable
 {
 	user-select: none;
+}
+
+table
+{
+	table-layout: fixed;
+	width: 50%;
+}
+
+td
+{
+	width: 50%;
+	background-color: var(--autumn-white);
+	color: var(--autumn-black);
+	font-size: 50px;
+}
+
+td a
+{
+	color: var(--autumn-black);
+}
+
+.projectlink
+{
+	font-size: 50px;
+}
+
+a.projectlink:hover
+{
+	background-color: var(--autumn-white);
+	color: var(--autumn-black);
+}
+
+iframe
+{
+	color: var(--autumn-black);
 }
