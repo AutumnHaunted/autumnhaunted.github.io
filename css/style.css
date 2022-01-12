@@ -67,6 +67,7 @@ a
 	padding: 30px;
 }
 
+@media screen and (min-width: 961px) {
 .middlecontainer
 {
 	display: flex;
@@ -76,11 +77,24 @@ a
 	margin-left: 25%;
 	margin-right: 25%;
 }
+}
+
+@media screen and (max-width: 960px) {
+.middlecontainer
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+	margin-left: 0%;
+	margin-right: 0%;
+}
+}
+
 
 img
 {
-	width: 337px;
-	min-width: 10%;
+	min-width: 150px;
 	max-width: 100%;
 }
 
