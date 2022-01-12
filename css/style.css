@@ -21,12 +21,21 @@ body
 	font-size: 0;
 }
 
-body h1
+h1
 {
 	font-weight: 700;
 	font-size: 60px;
 	font-family: 'Exo', sans-serif;
 	margin: 0px;
+}
+
+h2
+{
+	font-weight: 400;
+	font-size: 40px;
+	font-family: 'Exo', sans-serif;
+	margin: 0px;
+	padding-top: 30px;
 }
 
 a
@@ -64,6 +73,14 @@ a
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	padding-top: 30px;
+}
+
+.headercontainer
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	padding: 30px;
 }
 
@@ -74,7 +91,7 @@ a
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 30px;
+	padding: 10px;
 	margin-left: 25%;
 	margin-right: 25%;
 }
