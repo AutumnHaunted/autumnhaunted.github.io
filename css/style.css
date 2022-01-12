@@ -24,14 +24,16 @@ body
 body h1
 {
 	font-weight: 700;
-	font-size: 52px;
+	font-size: 60px;
 	font-family: 'Exo', sans-serif;
+	margin: 0px;
 }
 
 a
 {
 	color: var(--autumn-white);
 	text-decoration: none;
+	font-size: 30px;
 }
 
 #navbar
@@ -43,7 +45,7 @@ a
 	padding: 8px;
 	background-color: var(--autumn-white);
 	color: var(--autumn-black);
-	font-size: 26px;
+	font-size: 30px;
 }
 
 #navbar a:hover
@@ -62,11 +64,13 @@ a
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 26px;
+	padding: 30px;
 }
 
 img
 {
+	width: 337px;
+	min-width: 10%;
 	max-width: 100%;
 }
 
@@ -77,6 +81,11 @@ img
 
 .text
 {
-	font-size: 26px;
-	padding-left: 26px;
+	font-size: 30px;
+	padding-left: 30px;
+}
+
+.unselectable
+{
+	user-select: none;
 }
