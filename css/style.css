@@ -67,6 +67,16 @@ a
 	padding: 30px;
 }
 
+.middlecontainer
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
 img
 {
 	width: 337px;
