@@ -141,6 +141,12 @@ img.projectimage
 	font-size: 30px;
 }
 
+.topline
+{
+	font-size: 30px;
+	padding-top: 30px;
+}
+
 .projecttext
 {
 	font-size: 20px;
