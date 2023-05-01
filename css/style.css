@@ -47,6 +47,16 @@ h3
 	padding-top: 10px;
 }
 
+
+h4
+{
+	font-weight: 100;
+	font-size: 26px;
+	font-family: 'Exo', sans-serif;
+	margin: 0px;
+	padding-top: 5px;
+}
+
 a
 {
 	color: var(--autumn-white);
@@ -169,14 +179,32 @@ table
 {
 	table-layout: fixed;
 	width: 50%;
+	font-size: 50px;
+}
+
+table.filestable
+{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+	table-layout: auto;
 }
 
 td
 {
-	width: 50%;
 	background-color: var(--autumn-white);
 	color: var(--autumn-black);
-	font-size: 50px;
+}
+
+table.filestable td
+{
+	padding: 5px;
+	text-align: left;
+}
+
+table.filestable td a
+{
+	font-size: 20px;
 }
 
 td a
