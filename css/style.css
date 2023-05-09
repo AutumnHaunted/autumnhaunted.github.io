@@ -227,3 +227,8 @@ iframe
 {
 	color: var(--autumn-black);
 }
+
+hr
+{
+	color: var(--autumn-white);
+}
